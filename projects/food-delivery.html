@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
   
-    <title>Image Generator</title>
+    <title>Personal Blog</title>
     <meta content="" name="descriptison">
     <meta content="" name="keywords">
   
@@ -34,37 +34,45 @@
   
   <body data-gr-c-s-loaded="true">
   
-  <!-- ======= Portfolio Details ======= -->
     <main id="main">
-      <div id="portfolio-details" class="portfolio-details">
-        <div class="container">
-  
-          <div class="row">
-  
-            <div class="col-lg-12 portfolio-info">
-              <br>
-              <h2 style="color:#12d640">Image Generator</h2>
-              <ul>
-                <li><strong>Tech Stack</strong>: Python, HTML, CSS, Bootstrap, GCP(Pub/Sub, Dataflow, Data Studio, GAE, BigQuery)</li>
-                <li><strong>Github URL</strong>: <a href="https://github.com/rajaprerak/TwitterAnalysis" target="_blank">Project Link</a></li>
-              </ul>
-  
+        <div id="portfolio-details" class="portfolio-details">
+          <div class="container">
+      
+            <div class="row">
+      
+              <div class="col-lg-12 portfolio-info">
+                <br>
+                <h2 style="color:#12d640">Food Delivery Time Prediction Model</h2>
+      
+                <ul>
+                  <li><strong>Tech Stack</strong>: Python, Scikit-learn, Pandas, NumPy, Matplotlib</li>
+                  <li><strong>Project Focus</strong>: Predicting delivery time for food orders using machine learning</li>
+                  <li><strong>GitHub Repository</strong>: <a href="https://github.com/realaryagupta/food-delivery-time-prediction" target="_blank">Project Link</a></li>
+                </ul>
+      
                 <p>
-                Created a web‑based elastic application to provide the user with a detailed analysis of the sentiment of users on top 10 trending movies and songs with the help of Google Cloud Platform services.              
+                  This project involves building a machine learning model to predict food delivery times for restaurants. It follows a modular structure to ensure scalability and reusability:
                 </p>
+      
+                <ul>
+                  <li><strong>Data Pipeline</strong>: Organized data storage with directories for raw, interim, processed, and external data.</li>
+                  <li><strong>Model Development</strong>: Scripts for data preprocessing, feature engineering, model training, and predictions are housed in the <code>src</code> directory.</li>
+                  <li><strong>Documentation and Reporting</strong>: Comprehensive documentation in Sphinx format and analysis reports with visualizations in <code>reports</code>.</li>
+                  <li><strong>Version Control</strong>: <code>Makefile</code> for streamlined execution of data preparation and model training tasks.</li>
+                  <li><strong>Reproducibility</strong>: Detailed <code>requirements.txt</code> for replicating the analysis environment.</li>
+                </ul>
+      
                 <p>
-                Coded Pub/Sub routine to fetch 1000 tweets at a time from Twitter; used Dataflow for resource autoscaling and dynamic work rebalancing, reducing overall response time by 50\%; stored data in BigQuery table for efficiently displaying data in Google DataStudio.
+                  The model utilizes features like order distance, time of day, and restaurant-specific metrics to deliver accurate delivery time predictions, aiding in improving customer satisfaction and restaurant efficiency.
                 </p>
-                <p>
-                Tested the scalability of web application by generating 10000 user requests with the help of Apache Beam.
-                </p>
+              </div>
+      
             </div>
-  
+      
           </div>
-  
-        </div>
-      </div><!-- End Portfolio Details -->
-    </main><!-- End #main -->
+        </div><!-- End Portfolio Details -->
+      </main><!-- End #main -->
+    
   
    <!-- Vendor JS Files -->
     <script async="" src="//www.google-analytics.com/analytics.js"></script><script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -84,5 +92,4 @@
   
   </body>
   </html>
-  
   
